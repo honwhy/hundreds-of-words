@@ -6,9 +6,9 @@ import { Image } from 'astro:assets'
 import login1 from './login1.png'
 import login2 from './login2.png'
 import selectedWorkbook from './select-workbook.png'
-import collectWord from './collect-word.gif'
-import searchWord from './search-word.gif'
-import manageWordBook from './manage-wordbook.gif'
+import collectWord from './collect-word-min.gif'
+import searchWord from './search-word-min.gif'
+import manageWordBook from './manage-wordbook-min.gif'
 
 # 使用手册
 
@@ -16,17 +16,17 @@ import manageWordBook from './manage-wordbook.gif'
 
 1. 选中导航栏「请登录」列，下拉点击「登录」按钮
 
-   <img src={login1.src} alt="登录步骤1" />
+   <Image src={login1} alt="登录步骤1" />
 
 2. 填写手机号码，点击获取验证码并填写，点击「登录」。成功后页面显示账户昵称。
 
-   <img src={login2.src} alt="登录步骤2" />
+   <Image src={login2} alt="登录步骤2" />
 
 ## 选择单词本
 
 1. 登录成功后，设置页「单词本」会显示登录账户的单词本列表，选择其中一个单词本用于后续收藏单词本。点击下方「保存」按钮进行保存。
 
-   <img src={selectedWorkbook.src} alt="选择单词本" />
+   <Image src={selectedWorkbook} alt="选择单词本" />
 
 ## 其他配置
 
