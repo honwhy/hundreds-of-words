@@ -15,7 +15,7 @@ To provide the service, Words-100-Helper collects the following information:
 
 ## How We Use This Information
 
-- We use the account information to help you login to  the **Bǎicízhǎn (百词斩) ** app and synchronize word collection records.
+- We use the account information to help you login to  the **Bǎicízhǎn (百词斩)** app and synchronize word collection records.
 
 ## How We Store This Information
 
