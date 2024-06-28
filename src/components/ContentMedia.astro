@@ -7,11 +7,15 @@ const { imgSrc, reverseImg = false } = Astro.props
 <section class="my-64">
   <div class="container">
     <div class="grid grid-cols-1 gap-24 md:grid-cols-2">
+      <div class="some-wrapper" data-lightbox="true">
       {!reverseImg ? <Media class="rounded-lg" src={imgSrc} /> : ''}
+      </div>
       <div class="space-content flex flex-col justify-center">
         <slot />
       </div>
+      <div class="some-wrapper" data-lightbox="true">
       {reverseImg ? <Media class="rounded-lg" src={imgSrc} /> : ''}
+      </div>
     </div>
   </div>
 </section>
